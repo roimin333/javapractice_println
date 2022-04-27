@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class Main{ 
+    public static void main(String[] args) throws Exception {
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("血液型を入力してください。\r\n例：A型ならばAと入力してください");//\r\nは改行コード
+        String bloodtype=scanner.next();//入力した血液型を戻り値にするための関数。
+        System.out.println("あなたの血液型は"+bloodtype+"です。");
+    }
+}
